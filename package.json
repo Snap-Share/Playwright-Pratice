@@ -1,0 +1,20 @@
+{
+  "name": "playwright-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm playwright test",
+    "headed-test": "pnpm playwright test --headed",
+    "ui-test": "pnpm playwright test --ui",
+    "chrome-test": "pnpm playwright test --project=chromium",
+    "debug-test": "pnpm playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
+  }
+}
